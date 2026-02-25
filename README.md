@@ -17,6 +17,8 @@ $$ W_{\text{eff}}(t) = A_{\text{base}}^{-1}(A(t)) $$
 
 $$W_{\text{eff}}(t) \propto e^{-k t}$$
 
+![png](continual_learning_theory/effective_width_decay_fit.png)
+
 Based on NTK theory, this exponential decay rate $k$ is predicted to be inversely proportional to the square root of the network's physical width $W$:
 
 $$k \propto \frac{1}{\sqrt{W}}$$
